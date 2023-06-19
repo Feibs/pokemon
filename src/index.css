@@ -1,3 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-red: #D40000;
+  --primary-yellow: #FFCB05; 
+  --primary-blue: #3760AB;
+  --secondary-blue: #E3EBF9;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +21,12 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1, h3 {
+  font-family: 'Press Start 2P', 'Rubik', 'sans-serif';
+}
+
+h5 {
+  font-family: 'Rubik Mono One', 'Rubik', 'sans-serif';
 }
