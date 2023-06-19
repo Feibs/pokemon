@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import pokemon from "../assets/pokemon.svg";
+import pokemon from "../assets/pokemon.png";
 import pokeball from "../assets/pokeball.svg";
 
 const Navbar = () => {
